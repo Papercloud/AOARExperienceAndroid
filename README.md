@@ -1,14 +1,14 @@
 # AOARExperienceAndroid
-
+#### How to use
 ```java
-        Intent intent = new Intent(this, LocationActivity.class);
-        startActivity(intent);
+    Intent intent = new Intent(this, LocationActivity.class);
+    startActivity(intent);
 ```
 
-#### How to use
+#### Installation (gradle):
 ```
     allprojects {
-      repositories {
+        repositories {
             maven {
                url 'https://raw.github.com/Papercloud/AOARExperienceAndroid/master/releases/'
             }
