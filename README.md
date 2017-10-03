@@ -1,7 +1,13 @@
 # AOARExperienceAndroid
-#### How to use
+#### How to use - Location not enforced
 ```java
-    Intent intent = new Intent(this, LocationActivity.class);
+    Intent intent = new Intent(this, AustraliaOpenARActivity.class);
+    startActivity(intent);
+```
+#### How to use - Location enforced
+```java
+    Intent intent = new Intent(this, AustraliaOpenARActivity.class);
+    intent.putExtra(AustraliaOpenARActivity.ENFORCE_LOCATION, false);
     startActivity(intent);
 ```
 
