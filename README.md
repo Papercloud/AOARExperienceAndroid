@@ -17,7 +17,7 @@ This library is currently expected to add ~55MB to the APK size because it uses 
 ```
 
 #### Installation 
-##Root build.gradle:
+####Root build.gradle:
 ```
     allprojects {
         repositories {
@@ -30,7 +30,7 @@ This library is currently expected to add ~55MB to the APK size because it uses 
         }
     }
 ```
-##Project build.gradle:
+####Project build.gradle:
 ```
     android {
     	defaultConfig {
