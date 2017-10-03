@@ -1,8 +1,7 @@
 # AOARExperienceAndroid
-#### Information
-## Target
+#### Target
 This library is currently built to target armv7 devices.
-## Size
+#### Size
 This library is currently expected to add ~55MB to the APK size because it uses some sizable libraries, such as OpenCV. More optimisation will be done in the future.
 
 #### How to use - Location not enforced
@@ -24,6 +23,9 @@ This library is currently expected to add ~55MB to the APK size because it uses 
         repositories {
             maven {
                url 'https://raw.github.com/Papercloud/AOARExperienceAndroid/master/releases/'
+            }
+            maven {
+                url "http://repo.brightcove.com/releases"
             }
         }
     }
