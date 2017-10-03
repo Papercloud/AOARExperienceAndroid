@@ -18,7 +18,7 @@ This library is currently expected to add ~55MB to the APK size because it uses 
 
 #### Installation 
 #### Root build.gradle:
-```
+```groovy
     allprojects {
         repositories {
             maven {
@@ -31,7 +31,7 @@ This library is currently expected to add ~55MB to the APK size because it uses 
     }
 ```
 #### Project build.gradle:
-```
+```groovy
     android {
     	defaultConfig {
 	    ...
