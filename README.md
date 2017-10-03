@@ -11,7 +11,7 @@
     startActivity(intent);
 ```
 
-#### Installation (gradle):
+#### Installation (build.gradle):
 ```
     allprojects {
         repositories {
@@ -20,8 +20,15 @@
             }
         }
     }
+    
+    android {
+    	defaultConfig {
+	    ...
+	    multiDexEnabled true
+	}
+    }
 	
     dependencies {
-        implementation "au.com.papercloud.AOARExperience:rodlaver:0.1.25"
+        implementation "au.com.papercloud.AOARExperience:rodlaver:0.1.29"
     }
 ```
