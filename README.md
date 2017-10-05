@@ -40,6 +40,6 @@ This library is currently expected to add ~55MB to the APK size because it uses 
     }
 	
     dependencies {
-        compile "au.com.papercloud.AOARExperience:rodlaver:0.1.32"
+        compile "au.com.papercloud.AOARExperience:rodlaver:0.1.34"
     }
 ```
