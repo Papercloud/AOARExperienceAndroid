@@ -37,6 +37,9 @@ This library is currently expected to add ~55MB to the APK size because it uses 
 	    ...
 	    multiDexEnabled true
 	}
+	packagingOptions {
+            exclude 'META-INF/rxjava.properties'
+        }
     }
 	
     dependencies {
