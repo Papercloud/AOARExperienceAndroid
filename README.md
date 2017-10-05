@@ -22,7 +22,7 @@ This library is currently expected to add ~55MB to the APK size because it uses 
     allprojects {
         repositories {
             maven {
-               url 'https://raw.github.com/Papercloud/AOARExperienceAndroid/master/releases/'
+               url 'https://raw.github.com/bswarm-ar/AOARExperienceAndroid/master/releases/'
             }
             maven {
                 url "http://repo.brightcove.com/releases"
