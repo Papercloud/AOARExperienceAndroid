@@ -16,6 +16,9 @@ This library is currently expected to add ~55MB to the APK size because it uses 
     startActivity(intent);
 ```
 
+#### Environment
+It is recommended to be running at least Android Studio 3.0 for this library to be integrated successfully into your project.
+
 #### Installation 
 #### Root build.gradle:
 ```groovy
