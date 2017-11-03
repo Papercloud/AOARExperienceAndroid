@@ -4,12 +4,12 @@ This library is currently built to target armv7 devices.
 #### Size
 This library is currently expected to add ~55MB to the APK size because it uses some sizable libraries, such as OpenCV. More optimisation will be done in the future.
 
-#### How to use - Location not enforced
+#### How to use - Location enforced
 ```java
     Intent intent = new Intent(this, AustraliaOpenARActivity.class);
     startActivity(intent);
 ```
-#### How to use - Location enforced
+#### How to use - Location not enforced
 ```java
     Intent intent = new Intent(this, AustraliaOpenARActivity.class);
     intent.putExtra(AustraliaOpenARActivity.ENFORCE_LOCATION, false);
