@@ -46,6 +46,6 @@ It is recommended to be running at least Android Studio 3.0 for this library to 
     }
 	
     dependencies {
-        compile "au.com.papercloud.AOARExperience:rodlaver:0.2.6"
+        compile "au.com.papercloud.AOARExperience:rodlaver:0.2.7"
     }
 ```
